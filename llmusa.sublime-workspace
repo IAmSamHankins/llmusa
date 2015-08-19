@@ -1,0 +1,363 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"E",
+				"E2E2E2"
+			],
+			[
+				"a",
+				"text-align"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"h",
+				"href	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en-us\">\n<head>\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE-Edge\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <meta charset=\"UTF-8\">\n  <title>LL.M. USA</title>\n  <!-- Google Fonts -->\n  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Varela+Round' rel='stylesheet' type='text/css'>\n  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>\n  <!-- ADDING CSS HERE -->\n  <link rel=\"stylesheet\" href=\"css/normalize.css\">\n  <link rel=\"stylesheet\" href=\"css/style.css\">\n  <link rel=\"stylesheet\" href=\"css/font-awesome.css\">\n  <link rel=\"stylesheet\" href=\"css/animate.css\">\n</head>\n<body>\n<!-- hero starts here -->\n  <header>\n    <nav class=\"container\">\n      <div class=\"one-half\">\n      <a href =\"index.html\" class=\"site-logo\"><h1>LL.M. USA</h1></a>\n      </div>\n      <div class=\"one-half\">\n      <ul>\n        <li class=\"btn-outline\"><a href=\"register.html\">Register</a></li>\n      </ul>\n      </div>\n    </nav>\n    <div class=\"container hero\">\n      <h1 class=\"animated fadeIn\"> LL.M. USA</h1>\n      <p>Law School Information Sessions</p>\n      <h2> Prepare for Global Practice with an LL.M. Degree from the United States\n      <a href=\"register.html\" class=\"btn\">Register</a>\n    </div>\n  </header>\n  <section class=\"schools\">\n    <h2>Participating Schools</h2>\n    <ul class=\"schoollogos\">\n        <li> <img src=\"assets/american.\">\n    </ul>\n  </section>\n  <main role=\"main\">\n  <!-- benefits section here! -->\n    <section class=\"benefits\">\n    <ul class=\"container\">\n      <li class=\"one-third\">\n        <i class=\"fa fa-file-o\"></i>\n        <h2>Create Notes</h2>\n        <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content.</p>\n      </li>\n      <li class=\"one-third\">\n        <i class=\"fa fa-picture-o\"></i>\n        <h2>Save Images</h2>\n        <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within blocbox.</p>\n      </li>\n      <li class=\"one-third\">\n        <i class=\"fa fa-link\"></i>\n        <h2>Add Links</h2>\n        <p>Forget bookmarking sites in your browser. With blocbox, you can add links, group them and view them from any computer.</p>\n      </li>\n    </ul>\n    </section>\n    <section class=\"pricing\">\n    <!-- pricing information -->\n      <div class=\"container\">\n        <h2>How much does blocbox cost?</h2>\n        <p>We have many options to fit your needs. It's free to try for 30 days*, and you can always change your plan once you signed up. <br/>Here are the different features of each plan:</p>\n      </div>\n      <ul class=\"container\">\n        <li class=\"one-third\">\n          <div class=\"box\">\n            <h3>Casual</h3>\n            <h4>FREE</h4>\n            <ul> \n              <li>Up to 5 boxes</li>\n              <li>Up to 10 collaborators</li>\n              <li><strong>2GB</strong> of storage</li>\n            </ul>\n            <a href=\"signup.html\" class=\"btn\">Start Your Free Trial!</a>\n          </div>\n        </li>\n        <li class=\"one-third\">\n          <div class=\"box middle\">\n            <h3>Professional</h3>\n            <h4><span>$</span>5 <span class=\"month\">/month</span></h4>\n            <ul>\n              <li>Unlimited Boxes</li>\n              <li>Up to 20 collaborators</li>\n              <li><strong>5GB</strong> of storage</li>\n              <li>Real-time collaboration</li>\n            </ul>\n            <a href=\"signup.html\" class=\"btn\">Start Your Free Trial!</a>\n          </div>\n        </li>\n        <li class=\"one-third\">\n          <div class=\"box\">\n            <h3>Expert</h3>\n            <h4><span>$</span>10 <span class=\"month\">/month</span></h4>\n            <ul>\n              <li>Unlimited boxes</li>\n              <li>Unlimited collaborators</li>\n              <li><strong>Unlimited</strong> storage</li>\n              <li>Real-time collaboration</li>\n            </ul>\n            <a href=\"signup.html\" class=\"btn\">Start Your Free Trial</a>\n          </div>\n        </li>\n      </ul>\n      </section>\n      <section class=\"testimonials\">\n        <div class=\"container\">\n          <h2>Who uses blocbox?</h2>\n          <p>blocbox has more than 100,000 satisfied users storing and collaborating<br/> with teams across the world. Here's what a few have to say:</p>\n        </div>\n        <ul class=\"container\">\n          <li class=\"one-fourth\">\n            <blockquote>\"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier.\"</blockquote>\n            <img src=\"https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg\" alt=\"avatar\">\n            <p class=\"name\"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>\n          </li>\n          <li class=\"one-fourth\">\n            <div class=\"stagger\">\n            <blockquote>\"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier.\"</blockquote>\n            <img src=\"https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg\" alt=\"avatar\">\n            <p class=\"name\"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>\n            </div>\n          </li>\n          <li class=\"one-fourth\">\n            <blockquote>\"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier.\"</blockquote>\n            <img src=\"https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg\" alt=\"avatar\">\n            <p class=\"name\"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>\n          </li>\n          <li class=\"one-fourth\">\n            <div class=\"stagger\">\n            <blockquote>\"blocbox has made it easier to find and keep things I love. I can share with other designers on my team and create new categories with awesome stuff. And creating simple text documents couldn't be easier.\"</blockquote>\n            <img src=\"https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg\" alt=\"avatar\">\n            <p class=\"name\"><strong>Stella B.</strong><br/>Freelance Designer, N. Dakota</p>\n            </div>\n          </li>\n        </ul>\n      </section>\n\n<!-- START ASSIGNMENT 28 HERE \n\n      <section class=\"call-to-action-box\">\n        <h2>Begin saving your inspiration today!</h2>\n        <p>blocbox is the tool you need to keep all your thoughts and the things you find organized all in one place!</p>\n        <a href=\"signup.html\" class=\"btn\">Start Your Free Trial</a>\n      </section>\n  </main> -->\n  \n<!-- Footer is happening here -->\n\n  <footer>\n    <div class=\"container footer-nav-block\">\n      <div class=\"left-footer-block one-third\">\n        <p class=\"copyright-block\">&copy; 2015 <strong>blocbox</strong></p>\n      </div>\n      <nav class=\"link-block middle-footer-block one-third\">\n        <ul>\n          <li><a href=\"\">Terms</a></li> /\n          <li><a href=\"\">Privacy Policy</a></li> /\n          <li><a href=\"\">Contact Us</a></li> /\n          <li><a href=\"\">About Us</a></li> /\n          <li><a href=\"\">Twitter</a></li>\n        </ul>\n      </nav>\n      <div class=\"right-footer-block one-third\">\n        <img class=\"logo\" src=\"images/site-logo.png\" alt=\"blocbox\" />\n      </div>\n    </div>\n  </footer>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 0,
+			"file_write_time": 130844667200000000,
+			"settings":
+			{
+				"buffer_size": 7610,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 125.0,
+		"last_filter": "install package",
+		"selected_items":
+		[
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 543.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/samanthahankins/projects/blocbox/index.html",
+		"/Users/samanthahankins/projects/HTMLpractice/cloudInnovation.html",
+		"/Users/samanthahankins/projects/HTMLpractice/style.css",
+		"/Users/samanthahankins/projects/HTMLpractice/buttons.html",
+		"/Users/samanthahankins/projects/HTMLpractice/practice.css",
+		"/Users/samanthahankins/projects/blocbox/dashboard.html",
+		"/Users/samanthahankins/projects/blocbox/css/style.css",
+		"/Users/samanthahankins/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/samanthahankins/Desktop/My Websites/DASH/cookdrinkdance.html",
+		"/Users/samanthahankins/Desktop/My Websites/DASH/test.html",
+		"/Users/samanthahankins/Desktop/My Websites/Code Academy Practice/untitled.html",
+		"/Users/samanthahankins/Downloads/Jottly 2/index.html",
+		"/Users/samanthahankins/Desktop/My Websites/Code Academy Practice/main.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"box",
+			"\n.",
+			"}\n",
+			"logo",
+			"clear",
+			"middle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1478,
+								1478
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 268.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "llmusa.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
