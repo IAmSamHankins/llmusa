@@ -177,7 +177,12 @@ header nav ul > li.btn-outline:hover > a {
 /*HERO STUFF HERE */
 
 header .hero {
-  height: 430px;
+  height: 470px;
+  background: url(assets/ladyjustice.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 header .hero h1 {
