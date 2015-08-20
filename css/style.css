@@ -371,4 +371,23 @@ header .hero h2 {
 .mobile-attend .expo li {
   list-style-type: none;
   text-align: center;
+  line-height: 40px;
+}
+
+.mobile-attend .expo h3 {
+  text-align: center;
+  margin-right: 0;
+}
+
+.mobile-attend .expo .btn {
+  background-color: #333;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 500px;
+  margin-bottom:20px;
 }
