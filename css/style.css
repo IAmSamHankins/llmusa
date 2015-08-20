@@ -13,9 +13,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: normal;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 p {
@@ -228,7 +232,6 @@ header .hero .hero-text-container .hero-content .btn {
 header .hero h2 {
   color: #767676;
   font-family: "Source Sans Pro";
-  font-size: 24px;
   margin-bottom: 30px;
 }
 
@@ -275,3 +278,21 @@ header .hero h2 {
 
 /* LEARN SECTION */
 
+.learn .container {
+  background-image: linear-gradient(-44deg, #B9DDED 0%, #83BBF1 71%);
+  margin: 0;
+  width: 100%;  
+}
+
+.learn .learn-copy {
+  text-align: right;
+}
+
+.learn .reasons {
+  margin-top: 65px;
+  line-height: 30px;
+}
+
+.learn .reasons ul {
+    list-style-type: none;
+}
