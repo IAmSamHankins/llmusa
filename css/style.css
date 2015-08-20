@@ -364,9 +364,11 @@ header .hero h2 {
   text-transform: uppercase;
 }
 
-@media (max-width: 640px) {
-  .attend .locations {
-    overflow-x: auto;
-    display: block;
-  }
+.mobile-attend {
+  list-style-type: none;
+}
+
+.mobile-attend .expo li {
+  list-style-type: none;
+  text-align: center;
 }
