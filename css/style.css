@@ -305,3 +305,13 @@ header .hero h2 {
     font-weight: 100;
     font-size: 20px;
 }
+
+/*Attend Section*/
+
+.attend .container{
+  height: 500px;
+  width: 100%;
+  background: url("../assets/globe.jpg") no-repeat center center fixed;
+  background-size: 100%;
+  margin-left: 40px;
+}
