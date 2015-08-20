@@ -126,10 +126,6 @@ p {
 
 /*NAVIGATION THINGS */
 
-header nav {
-  background: white;
-  width: 100%;
-}
 
 header .fixed-nav-bar {
   position: fixed;
