@@ -380,7 +380,12 @@ header .hero h2 {
   .attend p {
     margin: 5px 5px 15px 5px;
   }
-
+  .attend {
+/*  height: 500px;
+*/  width: 100%;
+  background: url("../assets/globe-mobile.jpg") no-repeat center center fixed;
+  background-size: 100%;
+}
 }
 
 @media (min-width: 471px) {
@@ -395,12 +400,6 @@ header .hero h2 {
   .attend p {
     margin-left: 40px;
   }
-  .attend {
-/*  height: 500px;
-*/  width: 100%;
-  background: url("../assets/globe-mobile.jpg") no-repeat center center fixed;
-  background-size: 100%;
-}
 }
 
 /*Mobile Attend*/
