@@ -340,7 +340,7 @@ header .hero h2 {
 
 /*Attend Section*/
 
-.attend .container{
+.attend {
   height: 500px;
   width: 100%;
   background: url("../assets/globe.jpg") no-repeat center center fixed;
@@ -363,31 +363,58 @@ header .hero h2 {
   text-transform: uppercase;
 }
 
+@media (max-width: 470px) {
+  .attend .computer-attend {
+    display: none;
+  }
+}
+
+@media (min-width: 471px) {
+  .attend .mobile-attend {
+    display: none;
+  }
+}
+
+/*Mobile Attend*/
+
+
 .mobile-attend {
   list-style-type: none;
   text-align: center;
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0px 10px;
 }
 
 .mobile-attend .box {
   border: black solid 1px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  width: 97%;
+  width: 100%;
+  background: none;
 }
 
 .mobile-attend .expo {
-margin: 0px;
+  margin: 0px;
 }
 
 .mobile-attend .expo li {
   list-style-type: none;
   text-align: center;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .mobile-attend .expo h3 {
+  font-size: 18px;
   text-align: center;
   margin-right: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.mobile-attend .expo ul {
+  padding-left: 0px;
 }
 
 .mobile-attend .expo .btn {
