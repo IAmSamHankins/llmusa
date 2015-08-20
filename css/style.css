@@ -82,6 +82,8 @@ p {
   }
 }
 
+
+
 /* tablet */
 
 @media (min-width: 768px) {
@@ -196,8 +198,7 @@ header .hero {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  }
+  background-size: cover;  }
 
 }
 
@@ -318,6 +319,23 @@ header .hero h2 {
     list-style-type: none;
     font-weight: 100;
     font-size: 20px;
+}
+
+@media (max-width: 500px){
+  .learn .one-half {
+    width: 97%;
+  }
+  .learn .learn-copy p{
+    text-align: left;
+    font-size: 18px;
+  }
+  .learn .learn-copy h2{
+    text-align: center;
+  }
+  .learn .reasons ul{
+    margin-left: -20px;
+    font-size: 18px;
+  }
 }
 
 /*Attend Section*/
