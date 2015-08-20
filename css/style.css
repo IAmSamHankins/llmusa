@@ -345,7 +345,6 @@ header .hero h2 {
   width: 100%;
   background: url("../assets/globe.jpg") no-repeat center center fixed;
   background-size: 100%;
-  margin-left: 40px;
 }
 
 .attend .locations tr td {
@@ -366,6 +365,18 @@ header .hero h2 {
 
 .mobile-attend {
   list-style-type: none;
+  text-align: center;
+}
+
+.mobile-attend .box {
+  border: black solid 1px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  width: 97%;
+}
+
+.mobile-attend .expo {
+margin: 0px;
 }
 
 .mobile-attend .expo li {
