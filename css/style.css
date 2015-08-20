@@ -234,12 +234,41 @@ header .hero h2 {
 
 /*Styling the Participating Schools */
 
+.schools {
+  text-align: center; 
+  vertical-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
 .schools .schoollogos{
   display: block;
 }
 
 .schools .schoollogos .logo{
-  width: 300px;
+  width: 200px;
   margin-right: 40px;
-  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.schools .schoollogos .american{
+  width: 150px;
+}
+
+.schools .schoollogos .uchastings{
+  width:100px;
+}
+
+.schools .schoollogos .tulane{
+  width: 150px;
+}
+
+
+.schools .schoollogos .ucla{
+  width: 225px;
+}
+
+.schools .schoollogos .suny{
+  width: 225px;
 }
