@@ -189,7 +189,7 @@ header .hero {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 @media (max-width: 450px) {
@@ -239,6 +239,7 @@ header .hero .hero-text-container .hero-content .btn {
 header .hero h2 {
   color: #767676;
   font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 100;
   margin-bottom: 30px;
 }
 
@@ -344,6 +345,7 @@ header .hero h2 {
 */  width: 100%;
   background: url("../assets/globe.jpg") no-repeat center center fixed;
   background-size: 100%;
+  padding-bottom: 20px;
 }
 
 .attend .locations tr td {
