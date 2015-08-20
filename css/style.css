@@ -320,3 +320,14 @@ header .hero h2 {
   font-weight: 100;
   padding: 15px 20px;
 }
+
+.attend .locations tr td .btn {
+  background-color: #333;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
