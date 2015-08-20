@@ -367,11 +367,26 @@ header .hero h2 {
   .attend .computer-attend {
     display: none;
   }
+  .attend h2 {
+    text-align: center;
+  }
+
+  .attend p {
+    margin: 5px 5px 15px 5px;
+  }
 }
 
 @media (min-width: 471px) {
   .attend .mobile-attend {
     display: none;
+  }
+
+  .attend h2 {
+    margin-left: 40px;
+  }
+
+  .attend p {
+    margin-left: 40px;
   }
 }
 
@@ -392,7 +407,6 @@ header .hero h2 {
   padding-bottom: 20px;
   margin-bottom: 20px;
   width: 100%;
-  background: none;
 }
 
 .mobile-attend .expo {
