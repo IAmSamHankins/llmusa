@@ -1,6 +1,5 @@
 html, body{
   overflow-x: hidden;
-  background-color: #DAE1F6;
 }
 
 body {
@@ -191,6 +190,17 @@ header .hero {
   background-size: cover;
 }
 
+@media (max-width: 450px) {
+  header .hero {
+  background: url("../assets/ladyjustice-mobile.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+}
+
 header .hero h1 {
   font-size: 48px;
   margin: 0;
@@ -248,7 +258,7 @@ header .hero h2 {
 .schools .schoollogos .logo{
   width: 200px;
   margin-right: 40px;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-bottom: 20px;
 }
 
@@ -271,6 +281,13 @@ header .hero h2 {
 
 .schools .schoollogos .suny{
   width: 225px;
+}
+
+@media (max-width: 470px) {
+  .schools .schoollogos .uchastings {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
 }
 
 /* LEARN SECTION */
