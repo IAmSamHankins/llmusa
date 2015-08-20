@@ -182,7 +182,6 @@ header nav ul > li.btn-outline:hover > a {
 /*HERO STUFF HERE */
 
 header .hero {
-/*  height: 500px;*/
   margin-top: 60px;
   width: 100%;
   background: url("../assets/ladyjustice.jpg") no-repeat top center fixed;
@@ -190,12 +189,14 @@ header .hero {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-bottom: 200px;
 }
 
 @media (max-width: 450px) {
   header .hero {
   background: url("../assets/ladyjustice-mobile.jpg") no-repeat top center fixed;
   background-size: 100%;
+  padding-bottom: 0px;
 }
 
 }
@@ -237,7 +238,7 @@ header .hero .hero-text-container .hero-content .btn {
 
 header .hero h2 {
   color: #767676;
-  font-family: "Source+Sans+Pro";
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   margin-bottom: 30px;
 }
 
