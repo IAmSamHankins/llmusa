@@ -63,26 +63,9 @@ p {
 
 /* media queries */
 
-@media (max-width: 500px) {
-/*  .container {
-    width: 320px;
-  }*/
-  .one-half {
-    width: 46%;
-  }
-  nav .one-half img {
-    width: 75%;
-  }
 
-  header nav ul > li {
-    font-size: 14px;
-  }
 
-  footer {
-    height: none;
-  }
 }
-
 
 
 /* tablet */
@@ -183,6 +166,44 @@ header nav ul li a{
 
 header nav ul > li.btn-outline:hover > a {
   color: white;
+}
+
+@media (max-width: 500px) {
+/*  .container {
+    width: 320px;
+  }*/
+  .one-half {
+    width: 46%;
+  }
+  nav .one-half img {
+    width: 75%;
+  }
+
+  header nav h3 {
+    padding-top: 30px;
+    font-size: 14px
+  }
+
+  header nav .homelink {
+    margin-top: 15px;
+  }
+
+  header nav p {
+    font-size: 12px;
+  }
+
+  header nav ul > li {
+    font-size: 14px;
+  }
+
+  footer {
+    height: none;
+  }
+
+  header nav ul > li.btn-outline {
+  padding: 5px 15px;
+  border: 1px solid #223178;
+  border-radius: 4px;
 }
 
 /*HERO STUFF HERE */
