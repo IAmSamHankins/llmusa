@@ -3,7 +3,7 @@ html, body{
 }
 
 body {
-  font-family: "Source+Sans+Pro", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   color:#333333;
 }
 
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: normal;
   margin-bottom: 20px;
 }
@@ -23,9 +23,10 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 19px;
   font-weight: 100;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -152,8 +153,13 @@ header nav ul > li {
 }
 
 header nav .homelink {
-  margin-top: -13px;
   float: left;
+  margin-top: 10px;
+}
+
+header nav .homelink h3, p {
+  display: inline;
+  color: #223178;
 }
 
 header nav ul > li.btn-outline {
@@ -207,7 +213,7 @@ header .hero h1 {
 }
 
 header .hero p {
-  font-weight: 18px;
+  font-weight: 20px;
   margin: 0;
   color: #223178;
 }
@@ -215,7 +221,7 @@ header .hero p {
 header .hero .hero-text-container {
   margin-top: 140px;
   background-color: #FFFFFF;
-  opacity: .70;
+  opacity: .80;
   margin-right: 0px;
   width: 100%;
   padding-bottom: 30px;
@@ -238,8 +244,8 @@ header .hero .hero-text-container .hero-content .btn {
 
 header .hero h2 {
   color: #767676;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: 400;
   margin-bottom: 30px;
 }
 
@@ -365,8 +371,8 @@ header .hero h2 {
 }
 
 .attend h2 {
-  padding-top: 20px;
-  margin-top:0px;
+  padding-top: 40px;
+  margin-top: 0px;
 }
 
 @media (max-width: 470px) {
@@ -399,6 +405,11 @@ header .hero h2 {
 
   .attend p {
     margin-left: 40px;
+    padding-bottom: 20px;
+  }
+
+  .attend .computer-attend {
+    padding-top: 20px;
   }
 }
 
