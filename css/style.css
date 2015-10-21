@@ -8,13 +8,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #223178;
 }
 
+h1 {
+    font-size: 48px;
+}
 h2 {
   font-size: 28px;
-  font-weight: normal;
   margin-bottom: 20px;
 }
 
@@ -52,7 +54,14 @@ p {
   min-height: 1px;
   margin: 0 2%;
 }
-
+#attend{
+    color: black;
+    margin-right: 20px;
+    font-size: 15px;
+}
+#biobutton{
+    margin-left: 20px;
+}
 .one-half {
   width: 46%;
   float: left;
@@ -100,11 +109,11 @@ p {
 
 /* header */
 
-/*header {
+header {
   color: #FFFFFF; 
   background: #34495E; background color ackground-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
 
-} */
+} 
 
 /*NAVIGATION THINGS */
 
@@ -254,7 +263,7 @@ header .hero .hero-text-container {
 }
 
 header .hero .hero-text-container .hero-content {
-  margin-left: 40px;
+    margin-left: 40px;
 }
 
 header .hero .hero-text-container .hero-content .btn {
@@ -274,7 +283,9 @@ header .hero h2 {
   font-weight: 400;
   margin-bottom: 30px;
 }
-
+.CTA {
+    text-align: center;
+}
 /*Styling the Participating Schools */
 
 .schools {
