@@ -127,7 +127,10 @@ header .fixed-nav-bar {
   height: 60px;
   background-color: white; opacity: .;
 }
-
+.navmargin {
+    padding: 30px;
+    background-color: white;
+}
 header nav ul {
   display: inline;
   text-align: right;
