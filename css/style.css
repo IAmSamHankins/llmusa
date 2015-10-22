@@ -289,8 +289,18 @@ header .hero h2 {
 .CTA {
     text-align: center;
 }
-/*Styling the Participating Schools */
 
+#asiabutton
+{
+    padding-left: 85px;
+    padding-right: 85px;
+}
+/*Styling the Participating Schools */
+#asianav
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .schools {
   text-align: center; 
   vertical-align: center;
