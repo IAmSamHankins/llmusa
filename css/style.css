@@ -519,6 +519,29 @@ header .hero h2 {
   margin-bottom:20px;
 }
 
+.biophoto {
+    width: 150px;
+}
+
+.bio {
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.bio img {
+  float: left;
+  width: 150px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  background: #555;
+}
+
+.bio h2 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
 .footer-nav {
   z-index: 9999;
   width: 100%;
