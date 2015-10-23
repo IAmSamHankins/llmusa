@@ -61,6 +61,8 @@ p {
 }
 #biobutton{
     margin-left: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .one-half {
   width: 46%;
@@ -292,14 +294,14 @@ header .hero h2 {
 
 #asiabutton
 {
-    padding-left: 85px;
-    padding-right: 85px;
+    padding-left: 92px;
+    padding-right: 92px;
 }
 /*Styling the Participating Schools */
 #asianav
 {
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .schools {
   text-align: center; 
