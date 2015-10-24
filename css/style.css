@@ -243,8 +243,20 @@ header .hero {
   background: url("../assets/ladyjustice-mobile.jpg") no-repeat top center fixed;
   background-size: 100%;
   padding-bottom: 0px;
+      
 }
-
+.mobileoff{
+    display: none;
+}
+    .mobilestack{
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        margin-right: 20px;
+    }
+    .hero-content h2 {
+        font-size: 18px;
+    }
 }
 
 header .hero h1 {
@@ -287,9 +299,6 @@ header .hero h2 {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: 400;
   margin-bottom: 30px;
-}
-.CTA {
-    text-align: center;
 }
 
 #asiabutton
