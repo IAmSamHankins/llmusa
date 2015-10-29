@@ -276,7 +276,7 @@ header .hero .hero-text-container {
   opacity: .80;
   margin-right: 0px;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 200px;
 }
 
 header .hero .hero-text-container .hero-content {
@@ -301,17 +301,33 @@ header .hero h2 {
   margin-bottom: 30px;
 }
 
+/*header .hero .hero-text-container .hero-content .CTA .upcoming{
+    float: left;
+}
+
+header .hero .hero-text-container .hero-content .CTA .past{
+    float: right;
+    margin-left: 300px;
+}*/
+
+/*header .hero .hero-text-container .hero-content .CTA{
+    display:inline-block;
+}*/
+
 #asiabutton
 {
     padding-left: 92px;
     padding-right: 92px;
 }
-/*Styling the Participating Schools */
+
 #asianav
 {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+/*Styling the Participating Schools */
+
 .schools {
   text-align: center; 
   vertical-align: center;
